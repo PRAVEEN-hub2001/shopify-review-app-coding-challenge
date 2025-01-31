@@ -1,5 +1,4 @@
 import fs from 'fs';
-
 interface Review {
   review: string;
   date: Date;
@@ -18,7 +17,7 @@ export async function action({ request }: { request: Request }) {
       return { success: false, message: 'Product ID is required' };
     }
 
-    const filePath = '.././reviews.json';
+    const filePath = './app/reviews.json';
 
     let existingData: ReviewsData = {};
     let productId = data?.productId;

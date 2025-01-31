@@ -19,7 +19,7 @@ export const loader = async ({ params, request }: LoaderFunctionArgs) => {
   const responseData = await response.json();
 
 
-  const filePath = '.././reviews.json';
+  const filePath = './app/reviews.json';
 
   let reviews = {};
   if (fs.existsSync(filePath)) {

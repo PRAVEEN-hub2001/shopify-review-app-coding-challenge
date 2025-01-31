@@ -1,26 +1,26 @@
 # Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
 
 client_id = "4999298495106a6abe9de1cfb704693a"
-application_url = "https://demographic-different-expression-casino.trycloudflare.com"
+application_url = "https://evaluated-day-happened-journals.trycloudflare.com"
 embedded = true
 name = "Product Reviews"
 handle = "product-reviews-156"
 
 [build]
-include_config_on_deploy = true
-dev_store_url = "mai-my-store.myshopify.com"
 automatically_update_urls_on_dev = true
+dev_store_url = "mai-my-store.myshopify.com"
+include_config_on_deploy = true
 
 [webhooks]
 api_version = "2025-01"
 
   [[webhooks.subscriptions]]
-  topics = [ "app/uninstalled" ]
-  uri = "/webhooks/app/uninstalled"
-
-  [[webhooks.subscriptions]]
   topics = [ "app/scopes_update" ]
   uri = "/webhooks/app/scopes_update"
+
+  [[webhooks.subscriptions]]
+  topics = [ "app/uninstalled" ]
+  uri = "/webhooks/app/uninstalled"
 
 [access_scopes]
 # Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
@@ -28,10 +28,15 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://demographic-different-expression-casino.trycloudflare.com/auth/callback",
-  "https://demographic-different-expression-casino.trycloudflare.com/auth/shopify/callback",
-  "https://demographic-different-expression-casino.trycloudflare.com/api/auth/callback"
+  "https://evaluated-day-happened-journals.trycloudflare.com/auth/callback",
+  "https://evaluated-day-happened-journals.trycloudflare.com/auth/shopify/callback",
+  "https://evaluated-day-happened-journals.trycloudflare.com/api/auth/callback"
 ]
+
+[app_proxy]
+url = "https://evaluated-day-happened-journals.trycloudflare.com/app/review_form"
+subpath = "proxy"
+prefix = "apps"
 
 [pos]
 embedded = false
