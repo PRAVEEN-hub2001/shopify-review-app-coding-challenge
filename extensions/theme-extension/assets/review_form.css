@@ -1,0 +1,46 @@
+#review-form-container{
+    width: min-content;
+}
+#review-form-container label{
+    font-size: medium;
+}
+.star-rating {
+    display: inline-block;
+    font-size: 1em;
+    cursor: pointer;
+}
+.star {
+    color: gray;
+    font-size: x-large;
+}
+.star.selected {
+    color: gold;
+}
+#comment-label{
+    float: left;
+    margin-right: 1rem;
+}
+.submit-container{
+    display: flex;
+    justify-content: center;
+}
+#submit-button{
+    display: block;
+    cursor: pointer;
+    text-decoration: none;
+    background: #2c332f;
+    border: 0;
+    padding: 8px 16px;
+    border-radius: 6px;
+    color: #FFFFFF;
+}
+#msg-content{
+    font-size: small;
+    text-align: center;
+}
+.success{
+    color: green;
+}
+.error{
+    color: red;
+}
