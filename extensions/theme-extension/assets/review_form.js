@@ -45,7 +45,7 @@ submit.addEventListener('submit', async function (event) {
         comment: comment.value
     }
 
-    await fetch("https://mai-my-store.myshopify.com/apps/proxy", {
+    await fetch("/apps/proxy", {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
