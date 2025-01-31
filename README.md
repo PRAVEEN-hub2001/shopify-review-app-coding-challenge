@@ -44,4 +44,6 @@ Proxy URL: {Your App Url}/app/review_form
 
 ![Mai-My-Store-·-Product-Reviews-·-Shopify-01-31-2025_01_46_PM](https://github.com/user-attachments/assets/d6e94596-ffdb-4bfe-b81f-9026ad4bb7ae)
 
+### Challenges faced
+- I faced challenges integrating Shopify’s Storefront API with my Remix app, particularly with setting up a proxy for secure API calls. Since I’m new to Remix but have experience with web apps, I referred to Shopify and Remix documentation. I learned to use Remix loaders for server-side API calls, which helped avoid CORS issues and secure my credentials. I also got familiar with Shopify's GraphQL queries to fetch the necessary data and successfully integrate the API.
 
