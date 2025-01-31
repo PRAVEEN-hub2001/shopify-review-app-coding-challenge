@@ -38,4 +38,10 @@ Proxy URL: {Your App Url}/app/review_form
 - Go to Online Store → Themes → Customize → Product Page.
 - Add the Review Form Block and save the changes.
 
+### Example Screenshot
+
+![Black-T-Shirts-–-Mai-My-Store-01-31-2025_12_35_PM](https://github.com/user-attachments/assets/ed945b5b-5680-4465-b024-e196bfe62848)
+
+![Mai-My-Store-·-Product-Reviews-·-Shopify-01-31-2025_01_46_PM](https://github.com/user-attachments/assets/d6e94596-ffdb-4bfe-b81f-9026ad4bb7ae)
+
 
